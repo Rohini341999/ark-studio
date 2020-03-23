@@ -1,1 +1,112 @@
 <!-- In this file you are going to write the CSS code -->
+html{
+    height: 100%;
+    font-family: Verdana;
+    font-size: 15px;
+}
+body{
+    margin: 0px;
+    width:100%;
+    height: 100%;
+
+} 
+.transparent_nav{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/images/oie_23224456Eb3GO7K\ \(1\).jpg");
+    width: 100%;
+    height: 500px;
+    /* position: fixed; */
+}
+
+.nav_bar{
+    position: sticky;
+    position: fixed;
+    justify-content: start;
+    padding-left: 20%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    height: 60px;
+    background-color:white;
+    opacity:0.7 ;
+}
+  
+/* Navbar links */
+.nav_bar a{
+    float: right;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+}
+.arklogo{
+    max-height: 62px;
+}
+.billboard{
+    max-height: 70%;
+}
+#nav_list{
+    margin-left: 40%;
+    justify-items: right;
+    max-width: 95%;
+    position: fixed;
+    margin-top: 0px;
+}
+#nav_list li{
+    display: inline;
+    inline-size: inherit;
+
+}
+.verticalGap50{
+    height: 50px;
+}
+.cta{
+    position: relative;
+    display: inline-block;
+    background-color:white;
+    opacity: 0.7;
+    margin-top: 430px;
+    padding-top: 10px;
+    height: 60px;
+    justify-items: right;
+    width: 100%;
+} 
+
+.cta :hover{
+    background-color: white;
+}
+
+.cta #cta_link { 
+    justify-items: right;
+    margin-left: 75%;
+    width: 300px; 
+    height: 20px;
+    background-color:rgb(87, 204, 250);
+    border:5px solid rgb(87, 204, 250);
+    color: white;
+    justify-content: space-between;
+} 
+.cta #cta_header{
+    display: inline;
+} 
+a{  
+    text-decoration:none;
+    color:white;
+    
+}
+p{
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+
