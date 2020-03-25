@@ -5,7 +5,7 @@
 html{
     height: 100%;
     font-family: Verdana;
-    font-size: 15px;
+    font-size: 16px;
     box-sizing: border-box;
 }
 body{
@@ -85,12 +85,12 @@ body{
     width: 100%;
 } 
 
-.transparent_nav :hover{
+.cta :hover{
     background-color:blueviolet;
 }
 
 
-.cta #cta_link { 
+#cta_link { 
     justify-items: right;
     margin-left:45%;
     width: 200px; 
@@ -100,11 +100,13 @@ body{
     color: white;
     position: relative;
 } 
-.cta #cta_text{
+#cta_text{
     margin:20px;
+    color: grey;
+    font-weight: bold;
 }
 
-.cta #cta_header{
+#cta_header{
     display: inline;
 } 
 a{  
