@@ -1,8 +1,8 @@
-<!-- In this file you are going to write html code -->
 <!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="styles/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <section class="container" >
@@ -19,91 +19,131 @@
                 
                     <section class="cta">
                         <div id="cta_header">
-                        <p id="cta_text">Have a project in mind? We would love to hear from you!</p>
-                        <a id="cta_link" href="getintouch">GET IN TOUCH WITH US</a>
+                        <p id="cta_text">Have a project in mind? We would love to hear from you!<a id="cta_link" href="getintouch">GET IN TOUCH WITH US</a></p>
+                        
                     </div>
                     </section>
                 
-            </header>  
-            <div class="verticalGap20"></div>
-                <section class="services wrapper">
-                    <div class="companyslogan">companyslogan
+            </header>                
+                    <div class="companyslogan">
                         <p>We are ARK Studio, we make awesome stuff.</p>
                     </div>
-            <div class="verticalGap20"></div>
-        
-            <div class="threecards">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            </section>
+                    <section class="services_wrapper">
+                        <ul>
+                            <div class="column_ul left">
+                                <img src="/images/s1.png" alt="firsticon">
+                                <li>Applications</li>
+                                <p>We make real time web or android applications</p>
+                            </div>  
+                            <div class="column_ul middle"> 
+                                <img src="/images/s2.png" alt="secondicon">                         
+                                <li>Hardwares</li>
+                                <p>We make IOT projects using Arduino and Raspberry Pi</p>
+                            </div>
+                            <div class="column_ul right">
+                                <img src="/images/s3.png" alt="thirdicon">
+                                <li>Planning</li>
+                                <p>We schedule sessions for projects according to students' timetable</p>
+                            </div>
+                        </ul>
+                    </section>
+                    
             <section class="recent_work">
-                <div class="fiveimages">
-                    fiveimages
-                    <img src="" alt="" srcset="">
-                    <img src="" alt="" srcset="">
-                    <img src="" alt="" srcset="">
-                    <img src="" alt="" srcset="">
-                    <img src="" alt="" srcset="">
-                </div>
+
+                    <div class="column">
+                        <img id="w1" src="/images/w1.jpg" alt="first image">
+                    </div>
+                    <div class="column">
+                        <img id="w2" src="/images/w2.jpg" alt="second image">
+                    </div>
+                    <div class="column">
+                        <img id="w3" src="/images/w3.jpg" alt="third image">
+                    </div>
+                    <div class="column">
+                        <img id="w4" src="/images/w4.jpg" alt="fourth image">
+                    </div>
+                    <div class="column">
+                        <img id="w5" src="/images/w5.jpg" alt="fifth image">
+                    </div>
+               
             </section>
-        <section class="testimonials wrapper">
-            <div class="testimonials">
-                testimonials
-                
         
+            <div class="testimonials">
+                <p>TESTIMONIALS</p> 
             </div>
-            <div class="threejohndoecards">
-                threejohndoecards
+            <section class="testimonials_wrapper">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <div class="testi first">
+                        <img src="/images/client1.jpg" alt="client1">
+                        <li>Fatos Ismali / Manager</li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="testi second">
+                        <img src="/images/client2.jpg" alt="client2">
+                        <li>Avinash Ahuja / UI Designer</li>
+                        <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="testi third">
+                        <img src="/images/client3.jpg" alt="client3">    
+                        <li>Hardik Gupta / SEO Expert</li>
+                        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
                 </ul>
+            
+        </section>
+        <section class="brand">
+            <div class="brandlogos">
+                <img src="/images/client_logo.png" alt="first">
+                <img src="/images/client_logo.png" alt="first">
+                <img src="/images/client_logo.png" alt="first">
+                <img src="/images/client_logo.png" alt="first">
+                <img src="/images/client_logo.png" alt="first">
+                <img src="/images/client_logo.png" alt="first">
             </div>
         </section>
-        <div class="sixbrandlogos">
-            sixbrandlogos
-        </div>
-        <footer class="footerStyle">
-            <div class="fourcolumns">
-                <div class="Location">
-                    <tr>
-                    
-                        <td>3301 New Mexico Avenue</td>
-                        <td>Washington, DC 20016</td>
-                        <td>(202) 537-0787</td>
-                        <td></td>
-                    </tr>
-                </div>
-                <div class="Company">
-                    <tr>
-                        Company
-                        <td>Our Story</td>
-                        <td>Mission</td>
-                        <td>Journal</td>
-                        <td>Careers</td>
-                    </tr>
-                </div>
-                <div class="Support">
-                    <tr>
-                        Support
-                        <td>FAQ</td>
-                        <td>Contact Us</td>
-                        <td>Policies</td>
-                    </tr>
-                </div>
-                <div class="Arkstudio">
-                    <tr>
-                        ARK Studio
-                        <td>Anything</td>
-                    </tr>
-                </div>
+    <footer>
+        <div class="footer_widget">
+            <!-- locations -->
+            <div class="box-2" >
+                <h2 id="locations">Location</h2>
+                <address>3301 New Mexico Avenue
+                        Washington DC 20016
+                        (202)537-0787
+                </address>
+                <img src="/images/social.png" alt="Social icons">
+
             </div>
-        </footer>
-    </section>
+            <!-- Company -->
+            <div class="box-2">
+                <h2 id="company">Company</h2>
+                    <ul id="comp_list">
+                        <li id="comp_item_1"><a href="#">Our Story</a></li>
+                        <li id="comp_item_2"><a href="#">Mission</a></li>
+                        <li id="comp_item_3"><a href="#">Journal</a></li>
+                        <li id="comp_item_4"><a href="#">Careers</a></li>
+                    </ul>
+            </div>
+            <!-- Support -->
+            <div class="box-2">
+                <h2 id="support">Support</h2>
+                    <ul id="sup_list">
+                        <li id="sup_item_1"><a href="#">FAQ</a></li>
+                        <li id="sup_item_2"><a href="#">Contact Us</a></li>
+                        <li id="sup_item_3"><a href="#">Policies</a></li>
+                    </ul>
+            </div>
+            <!-- Ark studio -->
+            <div class="box-2">
+                <h2 id="ark">ARK Studio</h2>
+                    <P id="ark-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores modi, 
+                    accusamus velit et eum saepe mollitia. Laudantium expedita quam soluta.</P>
+            </div>
+            <div class="clear"></div>
+                    
+            
+            <!-- rights start -->
+            <p class="rights">2014 ARK Studio - All Rights Reserved</p>
+        </div>
+    </footer>
 </body>
 </html>
