@@ -1,8 +1,12 @@
-<!-- In this file you are going to write the CSS code -->
+
+*{
+    box-sizing: border-box;
+}
 html{
     height: 100%;
     font-family: Verdana;
     font-size: 15px;
+    box-sizing: border-box;
 }
 body{
     margin: 0px;
@@ -67,8 +71,8 @@ body{
     inline-size: inherit;
 
 }
-.verticalGap50{
-    height: 50px;
+.verticalGap20{
+    height: 20px;
 }
 .cta{
     position: relative;
@@ -88,14 +92,18 @@ body{
 
 .cta #cta_link { 
     justify-items: right;
-    margin-left: 75%;
-    width: 300px; 
-    height: 20px;
+    margin-left:40%;
+    width: 200px; 
+    height: 5px;
     background-color:rgb(87, 204, 250);
-    border:5px solid rgb(87, 204, 250);
+    border:7px solid rgb(87, 204, 250);
     color: white;
-    justify-content: space-between;
+    position: relative;
 } 
+.cta #cta_text{
+    margin:10px;
+}
+
 .cta #cta_header{
     display: inline;
 } 
@@ -104,9 +112,178 @@ a{
     color:white;
     
 }
-p{
-    margin-bottom: 0px;
-    width: 100%;
+
+.companyslogan p{
+    margin-top: 70px;
+    font-size: 20px;
+    color:grey;
+    margin-left: 450px;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 70px;
 }
+.column_ul {
+    float: left;
+    width:inherit;
+    height: 200px; /* Should be removed. Only for demonstration */
+    list-style-type: none;
+    margin-left: 17%;
+  }
+  .left, .right , .middle {
+    width: 15%;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .services_wrapper {
+    display: table;
+    clear: both;
+  }
+
+
+.recent_work{
+    height: 200px;
+}
+.column img{
+    float: left;
+    width: 20%;
+    height: 200px;
+    
+  }
+.column :hover{
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+      
+}
+
+.testimonials p{
+    margin-top: 70px;
+    font-size: 20px;
+    color:grey;
+    position: relative;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+.testi {
+    float: left;
+    width:inherit;
+    height: 300px; /* Should be removed. Only for demonstration */
+    list-style-type: none;
+    justify-content: space-around;
+    margin-left: 5%;
+  }
+.testi img{
+      border-radius: 50%;
+  }
+.first, .second , .third {
+    width: 25%;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+.testimonials_wrapper {
+    display: table;
+    clear: both;
+  }
+.brand{
+    background-color: white;
+    opacity: 0.9;
+}
+.brandlogos{
+    margin-left: 30%;
+}
+.footer_widget{
+height: 200px;
+background-color: rgb(36, 34, 34);
+border-left: 10%;
+}
+.box-2{
+  float: left;
+  width: 25%;
+  text-align:center;
+list-style-type: none;
+color:#fff;
+text-decoration: none;
+background-color: rgb(36, 34, 34);
+margin: 0px;
+padding: 0px;
+}
+.box-2 #locations{
+    padding-top: 10px;
+    margin:10px;
+    /* text-align: center; */
+    padding-left: 5%;
+}
+.box-2 #locations address{
+    text-align: left;
+}
+.box-2 #support{
+    padding-top: 10px;
+    margin: 10px;
+    /* margin-right: 0px;
+    padding-right: 0px; */
+    /* float: left; */
+}
+.box-2 #company{
+  padding-top: 10px;   
+  margin: 10px;
+  /* float: left; */
+  
+}
+.box-2 #ark{
+    padding-top: 10px;
+    /* margin:10px; */
+    margin-right: 20px;
+    /* float: left; */
+}
+.box-2 #comp_list li{
+    text-decoration: none;
+    list-style: none;
+}
+.box-2 #comp_list li a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+.box-2 #sup_list li{
+    list-style: none;
+    text-align: left;
+}
+.box-2 #support{
+    text-align: left;
+}
+.box-2 #sup_list li a{
+    text-decoration: none;
+    color: white;
+}
+.box-2 img{
+   margin-top:20px;
+}
+.box-2 #sup_list #sup_item_3{
+  padding-bottom:31px;
+}
+.box-2 #comp_list #comp_item_4{
+  padding-bottom: 14px;
+}
+.box-2 #ark-para{
+  padding-bottom: 31px;
+  padding-right: 10%;
+  text-align: justify;
+}
+.clear{
+  clear: both;
+}
+.rights{
+  text-align:center;
+  color: #fff;
+  background-color: rgb(36, 34, 34);
+  margin:0px;
+  padding-left: 10px;
+  padding-top: 40px;
+  padding-bottom:20px;
+}
+
 
 
